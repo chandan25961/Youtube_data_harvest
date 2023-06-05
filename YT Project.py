@@ -753,9 +753,9 @@ with col1:
     Get_data = st.button('**Get data and store**')
 
 # Retrieve and update session state based on button click
-state = init_session_state()
-if Get_data or state["Get_state"]:
-    state["Get_state"] = True
+    state = init_session_state()
+    if Get_data or state["Get_state"]:
+             state["Get_state"] = True
 
 
 # In[116]:
